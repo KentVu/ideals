@@ -86,7 +86,7 @@ tasks {
 
   patchPluginXml {
     version.set(System.getenv("IDEALS_VERSION"))
-    sinceBuild.set("231")
+    sinceBuild.set("223")
     untilBuild.set("231.*")
   }
 
