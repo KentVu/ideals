@@ -89,6 +89,7 @@ tasks {
 
   patchPluginXml {
     version = System.getenv("IDEALS_VERSION")
+    sinceBuild.set("242")
   }
 
   signPlugin {
